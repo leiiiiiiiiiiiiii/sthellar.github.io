@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-top {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    margin-bottom: 25px;
+}
+.nav-nav {
+    display: flex;
+}
+
+.social-link i img {
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.social-link i img:hover {
+    background-color: rgba(238, 244, 208);
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 400px) {
+    .social-link i img {
+        width: 20px;
+    }
+}
+
+.icons {
+    align-content: center;
+}
+
+.icons i img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+    .icons i img {
+        width: 20px;
+    }
+}
+
+.main-content {
+    width: 100%;
+    height: 90vh;
+    background-image: url(offer/cap.jpg);
+    background-size: cover;
+    background-position: 70%;
+}
+
+#navbar-color {
+    background-color: p;
+    font-weight: bold;
+}
+
+.nav-links {
+    align-content: center;
+}
+
+.nav-top {
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+
+.nav-top-item {
+    margin: 0px
+}
+
+.nav-link {
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: palevioletred;
+}
+
+.content {
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 400px) {
+    .content h1 {
+        font-size: 30px;
+    }
+}
+
+
+#btn2 button {
+    background-color: rgb(209, 105, 122); 
+    color: #fff;
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+
+#btn2 button:hover {
+    background-color: palevioletred;
+}
+
+.card-img-overlay .card-titel {
+    color: #000; 
+}
+
+.card-img-overlay p {
+    color: #000;
+}
+
+#tpc {
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#tpc:hover {
+    transform: translateY(-10px);
+}
+.user {
+    align-content: center;
+}
+#user {
+    width: 30px;
+    height: 30px;
+}
+
+#btn3 button {
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn3 button:hover {
+    background-color: pink;
+}
+
+@media screen and(max-width:870px) {
+    #btn3 button {
+        width: 100px;
+    }
+}
+
+
+#footer {
+    width:100%;
+    background-color: black;
+    margin-top: 20px;
+}
+
+#footer h1 {
+    color: white;
+    padding-top: 20px;
+}
+
+#footer p {
+    color: white;
+}
+
+.icons {
+    color: rgba(238,224,208);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.copyright {
+    color: white;
+    margin-top: 20px;
+}
+
+.credite {
+    color: white;
+}
+
+.section-padding {
+    padding: 100px;
+}
+
+.bg-footer {
+    background-color: rgb(209, 105, 122); ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px 0 30px;
+}
+
+.bg-footer a {
+    text-decoration: none;
+    color: white; 
+}

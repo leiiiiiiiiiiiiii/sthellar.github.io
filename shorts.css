@@ -1,0 +1,50 @@
+.container {
+    text-align: center;
+}
+
+#products h3 {
+    padding-top: 30px;
+}
+
+#products .row {
+    margin-top: 50px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card img {
+    object-fit: cover;
+    height: 400px; 
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card .text-center a button {
+    background-color: rgb(240, 160, 173); 
+    color: #fff;
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.card .text-center a button:hover {
+    background-color: palevioletred;
+}
+
+.card .card-body a {
+    display: block;
+    margin-top: 10px; 
+    color: rgb(255, 1, 86); 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+.card .card-body a:hover {
+    color:  rgb(224, 53, 110); 
+    text-decoration: underline; 
+}
